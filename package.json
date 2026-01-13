@@ -1,0 +1,29 @@
+{
+  "name": "linsta-socket-client",
+  "version": "1.0.0",
+  "description": "Socket.IO Client for Linsta React Native App - Real-time chat and notifications",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "socket.io",
+    "react-native",
+    "realtime",
+    "chat",
+    "notifications"
+  ],
+  "author": "Linsta Team",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io-client": "^4.5.0",
+    "react": "^18.0.0",
+    "react-native": "^0.71.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.71.0",
+    "typescript": "^5.0.0"
+  }
+}
